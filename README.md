@@ -115,65 +115,20 @@ show membutuhkan argumen. yaitu:
 3.1 show klasemen
 Perintah ini berfungsi untuk menampilkan klasemen sementara terkini. Klasemen
 ditampilkan berurutan mulai dari puncak klasemen hingga tim dengan score terendah.
-Output dari perintah show klasemen adalah sebagai berikut
-Peringkat | Nama Tim | Jumlah Gol | Jumlah Kebobolan | Menang | Kalah | Seri | Poin
------------------------------------------------------------------------------------
- 1 | Ular | 12 | 2 | 12 | 0 | 0 | 36
- 2 | Gajah | 11 | 2 | 11 | 0 | 0 | 33
-Dst…
 
 3.2 show pencetakGol
 Perintah ini berfungsi untuk menampilkan 10 pencetak gol terbanyak. Daftar
-pencetak gol ditampilkan berurutan mulai tertinggi hingga terendah. Output dari
-perintah show pencetakGol adalah sebagai berikut
-Peringkat | Nama Pemain | Nama Tim | Jumlah Gol
------------------------------------------------
- 1 | Luffy | Bebek | 31
- 2 | Zoro | Bebek | 29
-Dst…
+pencetak gol ditampilkan berurutan mulai tertinggi hingga terendah. 
 
 3.3 show tim [namaTim]
 Perintah ini berfungsi untuk menampilkan 5 pemain dalam tim lengkap dengan
-informasinya. Output dari perintah show tim Bebek adalah sebagai berikut
-Nomor | Nama | Gol | Pelanggaran | Kartu Kuning | Kartu Merah
---------------------------------------------------------------
- 7 | Enel | 5 | 5 | 2 | 0
- 13 | Ace | 3 | 2 | 2 | 0
-Dst…
+informasinya.
 
 3.4 show pemain [namaTim] [nomorPemain atau namaPemain]
-Perintah ini berfungsi untuk menampilkan informasi pemain. Output dari perintah
-show pemain Bebek 13 atau pemain Bebek Doffy adalah sebagai berikut
-Nomor : 13
-Nama : Doffy
-Gol : 15
-Pelanggaran : 5
-Kartu Kuning : 2
-Kartu Merah : 1
+Perintah ini berfungsi untuk menampilkan informasi pemain.
 
 3.5 show nextGame
 Perintah ini berfungsi untuk menampilkan informasi pertandingan selanjutnya yang
 akan dilaksanakan. Perintah ini penting jika user ingin menggunakan model manual
 pada perintah nextGame. Dengan perintah ini, user akan mengetahui tim apa
-selanjutnya yang akan bertanding. show nextGame menghasilkan output sebagai
-berikut:
-
-Bebek VS Rajawali
-Kerapihan presentasi pada fungsi show akan mendapat poin tambahan.
-Jika Game telah usai, maka sistem akan menjalankan secara otomatis fungsi show klasemen dan
-show pencetakGol.
-LIGA FASILKOM MUSIM INI TELAH USAI
-CHAMPION: Ular
-KLASEMEN
-Peringkat | Nama Tim | Jumlah Gol | Jumlah Kebobolan | Menang | Kalah | Seri | Poin
------------------------------------------------------------------------------------
- 1 | Ular | 12 | 2 | 12 | 0 | 0 | 36
- 2 | Gajah | 11 | 2 | 11 | 0 | 0 | 33
-Dst…
-TOP SCORE
-Peringkat | Nama Pemain | Nama Tim | Jumlah Gol
------------------------------------------------
- 1 | Luffy | Bebek | 31
- 2 | Zoro | Bebek | 29
-Dst…
-GOODBYE…
+selanjutnya yang akan bertanding.
