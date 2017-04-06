@@ -11,6 +11,7 @@ csleague-prototype adalah sistem sederhana yang mengakomodasi kebutuhan panitia 
 Prototype sistem ini berisi representasi data dummy untuk Pemain, Tim, hingga Pertandingan (Game) dan diimplementasikan dengan konsep Object Oriented Programming (OOP). Berikut perintah-perintah yang dapat dijalankan.
 
 List perintah:
+
 1.) Perintah: init x
 Perintah ini hanya dapat digunakan pada saat awal sistem dijalankan. Dengan perintah ini,
 sistem akan menginisiasi Tim yang akan ikut dalam kompetisi dengan data dummy. Variabel x
